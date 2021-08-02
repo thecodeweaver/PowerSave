@@ -1,2 +1,8 @@
 # PowerSave
-A Windows backup tool written in Powershell
+    ____                          _____                
+   / __ \____ _      _____  _____/ ___/____ __   _____ 
+  / /_/ / __ \ | /| / / _ \/ ___/\__ \/ __ `/ | / / _ \
+ / ____/ /_/ / |/ |/ /  __/ /   ___/ / /_/ /| |/ /  __/
+/_/    \____/|__/|__/\___/_/   /____/\__,_/ |___/\___/ 
+                                                       
+PowerSave is a Windows backup tool crafted in Powershell.
