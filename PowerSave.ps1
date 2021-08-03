@@ -25,7 +25,7 @@ $backup_folders = @(
     ($HOME + '\Pictures')
 )
 
-$backup_destination = $backup_drive + "\" + (Get-Date -Format "MM_dd_yyyy") + "_Backup"
+$backup_destination = $backup_drive + "\" + $env:computername + "_" + (Get-Date -Format "MM_dd_yyyy") + "_Backup"
 write-host "Backing up to $backup_destination..."
 
 New-Item -Path $backup_destination -ItemType Directory
